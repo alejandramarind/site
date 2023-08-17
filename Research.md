@@ -14,4 +14,9 @@ The idea is to identify, through the mayoral candidates' manifestos in Colombia,
 
 **Other publications in Spanish and latinamerica spaces**
 
-Ruiz, F, Botello, H, Mar ́ın, N. (2013) Chapter: “Spatial convergence of local mul- tidimensional poverty in a sample of Latin American countries”. In Boltvinik, J. et al (ed), Multidimensionality of poverty, proposals for its definition and evalua- tion in Latin America and the Caribbean (pp. 187-232). Buenos Aires, Argentina: CLACSO-CROP. ISBN: 978-987-1891-66-5. Available [here][http://www.clacso.org.ar/clacso/novedades_editoriales/libros_clacso/buscar_libro_detalle.php?id_libro=780&amp;amp%3Bcampo=titulo&amp;amp%3Btexto=multidimensionalidad%20de%20la%20pobreza]
+Marín, N. (2020). Being a woman in Colombia. Analysis of gender inequality in the labor market and its implications for pensions. En Parra y Videla (ed), Human Development for All. Social Sciences in Dialogue for an Inclusive Society (pp. 67- 77). Roma, Italia: Social-one y Pontificia Universidad Cat ́olica de Chile. ISBN: 978-88-95697-08-6. Available [here] (http://www.social-one.org/images/pdf/Human_Development_for_All.pdf) 
+
+Ruiz, F, Botello, H, Marín, N. (2013) Chapter: “Spatial convergence of local multidimensional poverty in a sample of Latin American countries”. In Boltvinik, J. et al (ed), Multidimensionality of poverty, proposals for its definition and evalua- tion in Latin America and the Caribbean (pp. 187-232). Buenos Aires, Argentina: CLACSO-CROP. ISBN: 978-987-1891-66-5. Available [here](http://www.clacso.org.ar/clacso/novedades_editoriales/libros_clacso/buscar_libro_detalle.php?id_libro=780&amp;amp%3Bcampo=titulo&amp;amp%3Btexto=multidimensionalidad%20de%20la%20pobreza)
+
+
+
