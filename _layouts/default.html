@@ -35,6 +35,41 @@
     nav a:hover {
       color: #ff9900;
     }
+
+    /* Estilos para pestañas deslizantes */
+    .sliding-tabs-container {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .sliding-tabs {
+      display: flex;
+      transition: margin-left 0.3s ease-in-out;
+    }
+
+    .sliding-tabs ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      margin: 0;
+    }
+
+    .sliding-tabs li {
+      text-align: center;
+    }
+
+    .sliding-tabs a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .sliding-tabs a.active {
+      background-color: #0078FF;
+      color: white;
+    }
   </style>
 </head>
 <body>
@@ -42,15 +77,18 @@
     {% if site.title and site.title != page.title %}
     <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
     {% endif %}
-    <nav>
-      <ul>
-        <li><a href="{{ "/index.html" | relative_url }}">Inicio</a></li>
-        <li><a href="{{ "/Academic_Background.html" | relative_url }}">Academic Background</a></li>
-        <li><a href="{{ "/Research.html" | relative_url }}">Research</a></li>
-        <li><a href="{{ "/another-page.html" | relative_url }}">Teaching Experience</a></li>
-        <li><a href="{{ "/academic_activities.html" | relative_url }}">Academic Experience</a></li>
-      </ul>
-    </nav>
+    <!-- Menú de pestañas deslizantes -->
+    <div class="sliding-tabs-container">
+      <nav class="sliding-tabs">
+        <ul>
+          <li><a href="{{ "/index.html" | relative_url }}">Inicio</a></li>
+          <li><a href="{{ "/Academic_Background.html" | relative_url }}">Academic Background</a></li>
+          <li><a href="{{ "/Research.html" | relative_url }}">Research</a></li>
+          <li><a href="{{ "/another-page.html" | relative_url }}">Teaching Experience</a></li>
+          <li><a href="{{ "/academic_activities.html" | relative_url }}">Academic Experience</a></li>
+        </ul>
+      </nav>
+    </div>
     {{ content }}
     {% if site.github.private != true and site.github.license %}
     <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
