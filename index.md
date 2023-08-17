@@ -4,14 +4,14 @@ layout: default
 
 I'm Alejandra. CV [detailed](./CV_2023.pdf)
 
-Academics interests: 
+Academic interests: Political economic, economic of gender, human development.
 
 *[Teaching experience](./another-page.html).
 
 *[Academic experience](./academic_activities.html).
 
 
-# [](#header-1)Education
+# [](#header-1)Academic Background
 
 **PhD Candidate in economics**
 
