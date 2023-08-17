@@ -2,9 +2,10 @@
 layout: default
 ---
 
-I'm Alejandra. I am
+I'm Alejandra. CV [detailed](./CV_2023.pdf)
 
-[Link to another page](./another-page.html).
+[Teaching experience](./another-page.html).
+
 
 # [](#header-1)Education
 
