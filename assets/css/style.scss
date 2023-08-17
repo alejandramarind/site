@@ -2,3 +2,12 @@
 ---
 
 @import "jekyll-theme-primer";
+<style>
+  /* Estilos para la barra de navegación en vista móvil */
+  @media (max-width: 768px) {
+    nav {
+      /* Tus estilos personalizados para la vista móvil */
+    }
+    /* Más estilos responsivos si es necesario */
+  }
+</style>
