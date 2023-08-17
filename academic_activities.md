@@ -3,10 +3,10 @@ layout: default
 ---
 
 # [](#header-3)Research experience
-* (2023) Researcher at: ”FONDECYT 11230380, the imp act of gender discrimination and time allocation in research incentives and scientific productivity”
-* (2014-2015) Senior Researcher at the labor market observatory, attached to the network of observatories of the Ministry of Labor (ORMET Network) in Magdalena Medio Regio
-* (2013-2014) Senior researcher in a project with UNDP, Universidad Industrial de Santander and the Colombian Labor Ministry to carry out municipal productive profiles and provide public policy inputs to create employment routes for victims of the armed conflict in Colom 
-* (2013) Junior student researcher in the Group of Research at Population, Environment, and Development (G-PAD), Industrial University of Santander  
+* (2023) <b>Researcher</b> at: ”FONDECYT 11230380, the imp act of gender discrimination and time allocation in research incentives and scientific productivity”
+* (2014-2015) <b>Senior Researcher</b> at the labor market observatory, attached to the network of observatories of the Ministry of Labor (ORMET Network) in Magdalena Medio Regio
+* (2013-2014) <b>Senior researcher</b> in a project with UNDP, Universidad Industrial de Santander and the Colombian Labor Ministry to carry out municipal productive profiles and provide public policy inputs to create employment routes for victims of the armed conflict in Colom 
+* (2013) <b> Junior student</b> researcher in the Group of Research at Population, Environment, and Development (G-PAD), Industrial University of Santander  
 
 
 # [](#header-4)Other academic activities
