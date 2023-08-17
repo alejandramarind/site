@@ -5,9 +5,9 @@
 <style>
   /* Estilos para la barra de navegación en vista móvil */
   @media (max-width: 768px) {
-    nav {
-      /* Tus estilos personalizados para la vista móvil */
-    }
-    /* Más estilos responsivos si es necesario */
+  nav li {
+    margin-right: 10px; /* Ajusta el margen según sea necesario */
   }
+}
+
 </style>
