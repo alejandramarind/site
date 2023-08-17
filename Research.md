@@ -8,4 +8,4 @@ Abstract: A part of the investigation of electoral results in political economy 
 
 
 **What do I really care about? Gender stereotypes and government issues**[In progress]
-
+The idea is to identify, through the mayoral candidates' manifestos in Colombia, whether men and women are interested in different public policy issues and whether those topics reinforce traditional gender stereotypes.
