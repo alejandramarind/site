@@ -12,19 +12,20 @@
 
 
   .sliding-tabs {
-    overflow: hidden;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
   }
 
   .sliding-tabs ul {
     list-style: none;
-    display: flex;
     padding: 0;
-    transition: margin-left 0.3s ease-in-out;
-    margin-left: 0;
+    display: flex;
+    margin: 0;
   }
 
   .sliding-tabs li {
-    flex: 1;
     text-align: center;
   }
 
@@ -33,12 +34,14 @@
     padding: 10px;
     text-decoration: none;
     color: #333;
+    transition: background-color 0.3s, color 0.3s;
   }
 
-  /* Estilos para pestañas activas */
   .sliding-tabs a.active {
     background-color: #0078FF;
     color: white;
   }
+
+
 </style>
 
