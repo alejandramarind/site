@@ -10,12 +10,14 @@
   }
 }
 
+ .sliding-tabs-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 
   .sliding-tabs {
-    overflow: auto;
-    white-space: nowrap;
     display: flex;
-    justify-content: space-between;
+    transition: margin-left 0.3s ease-in-out;
   }
 
   .sliding-tabs ul {
@@ -41,7 +43,5 @@
     background-color: #0078FF;
     color: white;
   }
-
-
 </style>
 
