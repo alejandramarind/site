@@ -4,9 +4,9 @@ layout: default
 
 I'm Alejandra. CV [detailed](./CV_2023.pdf)
 
-[Teaching experience](./another-page.html).
+*[Teaching experience](./another-page.html).
 
-[Academic experience](./academic_activities.html).
+*[Academic experience](./academic_activities.html).
 
 
 # [](#header-1)Education
