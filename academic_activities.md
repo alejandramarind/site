@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 # [](#header-3)Research experience
 * (2023) Researcher at: ”FONDECYT 11230380, the imp act of gender discrimination and time allocation in research incentives and scientific productivity”
@@ -14,4 +17,4 @@
 * <b> Referee services </b> Revista Opera, Universidad Javeriana, Colombia. Revista Investigación y Desarrollo, Universidad del Norte. Colombia. Revista Económicas CUC, Universidad de la Costa, Colombia. Revista encuentros, Universidad Autónoma del Caribe. Colombia. Revista estudios Pedagógicos, Universidad Austral de Chile
 
 
-
+[back](./)
