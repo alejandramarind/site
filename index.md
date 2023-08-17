@@ -27,4 +27,3 @@ Academics interests:
 </dl>
 
 
-```
