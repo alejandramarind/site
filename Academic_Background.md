@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# [](#header-1)Academic Background
-
 **PhD Candidate in Economics**
 
 Universidad de Chile
