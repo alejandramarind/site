@@ -9,55 +9,27 @@
   {% include head-custom.html %}
   <style>
     /* Estilos para la barra de navegación */
-   /* Estilos para la barra de navegación */
-nav {
-  background-color: #0078FF;
-  height: 40px; /* Ajusta la altura según lo deseado */
-  overflow: hidden;
-}
+    nav {
+      background-color: #0078FF;
+      height: 40px; /* Ajusta la altura según lo deseado */
+      overflow: hidden;
+    }
 
-/* Centrar verticalmente el texto en las pestañas del menú */
-.menu a {
-  display: flex; /* Permite el alineamiento vertical */
-  align-items: center; /* Centra verticalmente el contenido */
-  padding: 0 10px; /* Ajusta los valores según lo deseado */
-  height: 100%; /* Ocupar la altura completa de la barra */
-  text-decoration: none;
-  color: white; /* Color de fuente blanco */
-  transition: background-color 0.3s, color 0.3s;
-}
-
-/* Cambiar color de fuente en estado de hover */
-.menu a:hover {
-  background-color: #ff9900;
-  color: white;
-}
-
-
-
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+    /* Centrar verticalmente el texto en las pestañas del menú */
+    .menu a {
       display: flex;
-      flex-wrap: wrap; /* Agrega envoltura flexible */
-      justify-content: center; /* Centra las pestañas */
-    }
-
-    nav li {
-      margin: 5px; /* Ajusta el margen según sea necesario */
-    }
-
-    nav a {
+      align-items: center;
+      justify-content: center;
+      height: 100%;
       text-decoration: none;
       color: white;
-      font-weight: bold;
-      transition: color 0.3s;
-      padding: 10px; /* Agrega espaciado */
+      transition: background-color 0.3s, color 0.3s;
     }
 
-    nav a:hover {
-      color: #ff9900;
+    /* Cambiar color de fuente en estado de hover */
+    .menu a:hover {
+      background-color: #ff9900;
+      color: white;
     }
 
     /* Estilos para pestañas deslizantes */
