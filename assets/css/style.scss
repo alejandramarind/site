@@ -1,48 +1,42 @@
----
----
-
-
 @import "jekyll-theme-primer";
-<style>
-  /* Estilos para la barra de navegación en vista móvil */
-  @media (max-width: 768px) {
+
+/* Estilos para la barra de navegación en vista móvil */
+@media (max-width: 768px) {
   nav li {
     margin-right: 10px; /* Ajusta el margen según sea necesario */
   }
 }
 
- .sliding-tabs-container {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
+.sliding-tabs-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
-  .sliding-tabs {
-    display: flex;
-    transition: margin-left 0.3s ease-in-out;
-  }
+.sliding-tabs {
+  display: flex;
+  transition: margin-left 0.3s ease-in-out;
+}
 
-  .sliding-tabs ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    margin: 0;
-  }
+.sliding-tabs ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
 
-  .sliding-tabs li {
-    text-align: center;
-  }
+.sliding-tabs li {
+  text-align: center;
+}
 
-  .sliding-tabs a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-    transition: background-color 0.3s, color 0.3s;
-  }
+.sliding-tabs a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
 
-  .sliding-tabs a.active {
-    background-color: #0078FF;
-    color: white;
-  }
-</style>
-
+.sliding-tabs a.active {
+  background-color: #0078FF;
+  color: white;
+}
