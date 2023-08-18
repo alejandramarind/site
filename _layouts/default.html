@@ -19,10 +19,12 @@
       margin: 0;
       padding: 0;
       display: flex;
+      flex-wrap: wrap; /* Agrega envoltura flexible */
+      justify-content: center; /* Centra las pestañas */
     }
 
     nav li {
-      margin-right: 20px;
+      margin: 5px; /* Ajusta el margen según sea necesario */
     }
 
     nav a {
@@ -30,6 +32,7 @@
       color: white;
       font-weight: bold;
       transition: color 0.3s;
+      padding: 10px; /* Agrega espaciado */
     }
 
     nav a:hover {
