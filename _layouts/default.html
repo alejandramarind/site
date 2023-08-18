@@ -9,22 +9,30 @@
   {% include head-custom.html %}
   <style>
     /* Estilos para la barra de navegación */
-    nav {
+   /* Estilos para la barra de navegación */
+nav {
   background-color: #0078FF;
-  height: 35px; /* Cambia este valor según lo que desees */
+  height: 40px; /* Ajusta la altura según lo deseado */
   overflow: hidden;
 }
 
-    /* Centrar verticalmente el texto y establecer color de fuente */
+/* Centrar verticalmente el texto en las pestañas del menú */
 .menu a {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Centrar horizontalmente el contenido */
-  height: 40px; /* Establecer la altura de las pestañas */
+  display: flex; /* Permite el alineamiento vertical */
+  align-items: center; /* Centra verticalmente el contenido */
+  padding: 0 10px; /* Ajusta los valores según lo deseado */
+  height: 100%; /* Ocupar la altura completa de la barra */
   text-decoration: none;
   color: white; /* Color de fuente blanco */
   transition: background-color 0.3s, color 0.3s;
 }
+
+/* Cambiar color de fuente en estado de hover */
+.menu a:hover {
+  background-color: #ff9900;
+  color: white;
+}
+
 
 
     nav ul {
