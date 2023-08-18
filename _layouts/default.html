@@ -11,7 +11,6 @@
     /* Estilos para la barra de navegación */
     nav {
       background-color: #0078FF;
-      overflow: hidden;
     }
 
     nav ul {
@@ -19,12 +18,16 @@
       margin: 0;
       padding: 0;
       display: flex;
-      flex-wrap: wrap; /* Agrega envoltura flexible */
-      justify-content: center; /* Centra las pestañas */
+      justify-content: flex-end; /* Alinea los elementos a la derecha */
     }
 
     nav li {
-      margin: 5px; /* Ajusta el margen según sea necesario */
+      margin-left: 20px;
+      position: relative; /* Para posicionar los elementos desplegables */
+    }
+
+    nav li:hover ul {
+      display: block; /* Muestra el menú desplegable al hacer hover */
     }
 
     nav a {
@@ -32,45 +35,35 @@
       color: white;
       font-weight: bold;
       transition: color 0.3s;
-      padding: 10px; /* Agrega espaciado */
     }
 
     nav a:hover {
       color: #ff9900;
     }
 
-    /* Estilos para pestañas deslizantes */
-    .sliding-tabs-container {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    .sliding-tabs {
-      display: flex;
-      transition: margin-left 0.3s ease-in-out;
-    }
-
-    .sliding-tabs ul {
-      list-style: none;
+    /* Estilos para el menú desplegable */
+    nav ul ul {
+      display: none; /* Oculta el menú desplegable por defecto */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #0078FF;
       padding: 0;
-      display: flex;
+    }
+
+    nav ul ul li {
       margin: 0;
     }
 
-    .sliding-tabs li {
-      text-align: center;
-    }
-
-    .sliding-tabs a {
+    nav ul ul a {
       display: block;
       padding: 10px;
-      text-decoration: none;
-      color: #333;
+      color: white;
       transition: background-color 0.3s, color 0.3s;
     }
 
-    .sliding-tabs a.active {
-      background-color: #0078FF;
+    nav ul ul a:hover {
+      background-color: #ff9900;
       color: white;
     }
   </style>
@@ -80,18 +73,19 @@
     {% if site.title and site.title != page.title %}
     <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
     {% endif %}
-    <!-- Menú de pestañas deslizantes -->
-    <div class="sliding-tabs-container">
-      <nav class="sliding-tabs">
-        <ul>
-          <li><a href="{{ "/index.html" | relative_url }}">Inicio</a></li>
-          <li><a href="{{ "/Academic_Background.html" | relative_url }}">Academic Background</a></li>
-          <li><a href="{{ "/Research.html" | relative_url }}">Research</a></li>
-          <li><a href="{{ "/another-page.html" | relative_url }}">Teaching Experience</a></li>
-          <li><a href="{{ "/academic_activities.html" | relative_url }}">Academic Experience</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="{{ "/index.html" | relative_url }}">Inicio</a></li>
+        <li><a href="#">Menú Principal</a>
+          <ul>
+            <li><a href="{{ "/Academic_Background.html" | relative_url }}">Academic Background</a></li>
+            <li><a href="{{ "/Research.html" | relative_url }}">Research</a></li>
+            <li><a href="{{ "/another-page.html" | relative_url }}">Teaching Experience</a></li>
+            <li><a href="{{ "/academic_activities.html" | relative_url }}">Academic Experience</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
     {{ content }}
     {% if site.github.private != true and site.github.license %}
     <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
